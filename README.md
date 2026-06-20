@@ -1,170 +1,183 @@
-# Creator OS
+# Creator OS — 你的专属内容运营教练
 
-**AI-powered content production system for 抖音 / 小红书 / TikTok**
+**自动化完成抖音 / 小红书全套内容生产，从选题到成片，全程几乎 0 人工。**
 
-> From topic selection to published video — nearly zero manual work.  
-> Not just automation. Your taste, your standards, your judgment — systematized and compounding.
+它不只是帮你干活的工具，而是一个懂你账号、记得你每一条数据的教练。最值钱的是：它帮你把自己的套路和风格沉淀下来，持续复盘迭代，变成别人拿不走的资产。
 
-Works with **Claude Code · Codex · any Claude-compatible agent environment**
-
----
-
-## 痛点 · The Problem
-
-做内容的人都经历过这些 / Every creator knows these pains:
-
-- 想做但不知道做什么——翻了半天热榜，选了个感觉会爆的，发出去扑了
-- 写文案靠感觉，同样的结构下次用又忘了为什么管用
-- 发完不知道哪里出了问题，是选题还是钩子还是剪辑节奏
-- 积累的东西都在脑子里，带不走、教不了、越做越累
-
-**Topic paralysis. Inconsistent copy. No post-mortem. Knowledge stuck in your head.**
+适用于 **Claude Code · Codex · 任何 Claude 兼容的 agent 环境**
 
 ---
 
-## 它解决什么 · What This Solves
+*AI-powered content coach for 抖音 / 小红书 / TikTok. Full pipeline automation from topic to published video — nearly zero manual work.*
 
-| 问题 | 解法 |
-|---|---|
-| 选题靠直觉 | 五维评分卡 + 数据驱动打分，AI 帮你筛 |
-| 文案靠感觉 | 套路库固化爆款结构，对标网红口吻模版化输出 |
-| 发完不知咋回事 | 北极星指标自动判定，留存归因精确到帧 |
-| 经验在脑子里 | 每条视频强制复盘 → 更新套路库 → 变成你的永久资产 |
-| 视频生产靠手感 | 口播稿 → 转写 → 逐帧编排 → 渲染，全程模版化 |
+*Not just a tool that executes. A coach that remembers your data, systematizes your taste, and turns every video into compounding knowledge.*
 
-**The goal: minimize garbage work. Maximize judgment preservation.**
+*Works with **Claude Code · Codex · any Claude-compatible agent environment***
 
 ---
 
-## 五个核心交付件 · Five Skills
+## 痛点
 
-> 每个 Skill 是一个 Claude Code 指令，直接触发完整工作流。  
-> Each Skill is a single command that runs a complete workflow.
+做自媒体的人都卡在这几件事上：
 
-### `/选题` — Topic Engine
-- 拉今日 AI 热点 + 平台热榜
-- 读套路库历史规律
-- 五维评分卡打分：北极星匹配 / 收藏属性 / 独家性 / 钩子强度 / 时效热点
-- 输出排序好的选题清单，每条带评分依据
-
-*Pulls trending topics + your knowledge base → ranked topic list with scoring rationale.*
+- **效率低**：选题翻半天、文案憋半天、剪辑磨半天，一条视频耗掉一整天
+- **全凭感觉**：选题靠直觉、文案靠手感、发完不知道为什么火/为什么扑，逻辑性约等于零
+- **沉淀不下来**：复盘不结构化，做过的经验留在脑子里，带不走、教不了，越做越累
+- **改进没方向**：数据看了一堆，不知道该调选题还是调钩子还是调节奏
 
 ---
 
-### `/文案` — Copy Engine
-- 按套路库结构起草口播稿
-- 对标你设定的网红口吻风格（口头禅 / 节奏 / 句式全模版化）
-- 配套发布包：标题备选 / 话题标签 / 封面建议 / 发布前预测卡
+*Every creator hits these walls:*
 
-*Drafts scripts in your benchmarked creator's tone. Every copy element templated.*
-
----
-
-### `/预审` — Pre-publish Audit
-- 对照平台官方红线：限流词 / 违规内容 / 标签禁区
-- 输出红黄绿三级清单，标注具体修改建议
-- 发前拦截，不发事后补救
-
-*Scans against official platform guidelines. Red/yellow/green audit before you hit publish.*
+- *Wasted hours on topic research, copywriting, editing — one video eats a whole day*
+- *Everything runs on gut feeling — no logic, no system, no idea why something flopped*
+- *Nothing compounds — experience stays in your head, can't be taught, can't scale*
+- *Data without direction — numbers everywhere, no idea what to actually change*
 
 ---
 
-### `/复盘` — Post-mortem Engine
-- 自动取后台数据（无需手动查）
-- 北极星指标判定：命中 / 平庸 / 扑
-- 留存曲线归因：开头掉 = 钩子问题，中段掉 = 结构问题
-- 输出复盘卡 + 套路库更新建议（人工确认后才写入）
+## 它解决什么
 
-*Auto-pulls analytics. Diagnoses exactly where viewers dropped off. Feeds learnings back into the system.*
+**一句话：把"凭感觉做内容"变成"有标准、能沉淀、会迭代的系统"。**
 
----
+**① 目标驱动**
+不上来就让你干活，先带你想清楚——这个账号到底为什么存在、靠什么变现、服务谁。把这些定死成一份总策略文件（北极星），之后所有动作都对齐它，不跑偏。
 
-### `/视频生产` — Video Production Pipeline
-- 口播录完 → Whisper 转写 → 词级时间戳
-- 逐帧编排方案（字幕卡点 / 高亮 / B-roll 全模版化）
-- Remotion 渲染成片
-- 每条片做完出复盘 + 模版库新增沉淀
+**② 逻辑完整**
+从选题 → 文案 → 视频生产，全链路标准化、模版化。每一步都有依据，不再靠灵光一现。文案不会写了？套模版。视频不会剪了？套模版。
 
-*Recording → transcript → frame-level edit plan → render. Full pipeline, all templated.*
+**③ 内容沉淀**
+持续拆解同赛道爆款，总结成可复用的套路，存进你自己的知识库。你做得越多，这个库越厚，agent 越懂你。
+
+**④ 复盘迭代**
+每条视频发完，数据自动回流到前端策略——哪里掉了人、哪类选题命中率高，反哺回选题和文案环节，动作一轮比一轮准。
 
 ---
 
-## 套路库 · The Knowledge Base
+*One sentence: turn "content on gut feeling" into "a system with standards, memory, and iteration."*
 
-[`爆款知识库/套路库.md`](爆款知识库/套路库.md)
+*① Goal-driven — Before any execution, it helps you define why your account exists, how it monetizes, and who it serves. Everything is locked into a North Star doc. Every agent decision traces back to it.*
 
-**持续更新同赛道爆款，每条拆成 6 个维度：**  
-*Updated daily with viral content from your niche, dissected across 6 dimensions:*
+*② Complete logic — Topic → copy → video production, fully standardized and templated. Every step has a rationale. Stuck on copy? Use the template. Can't figure out the edit? Use the template.*
 
+*③ Knowledge compounds — Viral content in your niche gets dissected daily, distilled into reusable playbook rules, stored in your own knowledge base. The more you use it, the smarter it gets.*
+
+*④ Iterative loop — After every video, analytics flow back into your strategy. Drop-off points, topic hit rates, hook performance — all fed back to refine the next round.*
+
+---
+
+## 五个核心交付件
+
+> 每个都是一句指令，触发一整套工作流。
+> *Each is a single command that runs a complete workflow.*
+
+---
+
+### `/选题` — 选题引擎 · Topic Engine
+
+从 15 个平台拉取当日 AI 热点 + 读套路库历史规律 → 五维评分卡打分（北极星匹配 / 收藏属性 / 独家性 / 钩子强度 / 时效热点）→ 输出排序好的选题清单，每条都带评分依据，告诉你为什么值得做。
+
+*Pulls today's AI trends from 15 platforms + reads your playbook history → scores every candidate on 5 dimensions (north star fit / save-worthiness / exclusivity / hook strength / timeliness) → outputs a ranked topic list with rationale for each.*
+
+---
+
+### `/文案` — 文案引擎 · Copy Engine
+
+按套路库结构起草口播稿，对标你设定的标杆网红口吻（口头禅 / 节奏 / 句式全部模版化）。配套完整发布包：标题备选 / 话题标签 / 封面建议 / 发布前预测卡。
+
+*Drafts scripts using your playbook structure, in the tone of your benchmarked creator (catchphrases / rhythm / sentence patterns all templated). Comes with a full publish pack: title options, hashtags, cover copy, pre-publish prediction card.*
+
+---
+
+### `/预审` — 发布前审查 · Pre-publish Audit
+
+对照平台官方红线扫一遍：限流词 / 违规内容 / 标签禁区 → 红黄绿三级清单，标出具体怎么改。发前拦截，不做事后补救。
+
+*Scans against official platform guidelines: shadowban triggers / violations / hashtag blacklists → red/yellow/green audit with specific fix instructions. Catch it before publish, not after.*
+
+---
+
+### `/复盘` — 复盘引擎 · Post-mortem Engine
+
+自动取后台数据（不用手动查）→ 北极星指标判定（命中 / 平庸 / 扑）→ 留存曲线归因（开头掉 = 钩子问题，中段掉 = 结构问题）→ 出复盘卡 + 套路库更新建议（你确认后才写入）。
+
+*Auto-pulls backend analytics → north star verdict (hit / mediocre / flop) → retention curve diagnosis (early drop = hook problem, mid drop = structure problem) → outputs post-mortem card + playbook update suggestions (waits for your approval before writing).*
+
+---
+
+### `/视频生产` — 视频生产管线 · Video Production Pipeline
+
+口播录完 → Whisper 转写出词级时间戳 → 逐帧编排（字幕卡点 / 高亮 / B-roll 切点全部模版化）→ Remotion 渲染成片。每条做完沉淀一个新模版。**整条管线模版化，下一条从模版出发，不从零开始。**
+
+*Recording → Whisper transcript with word-level timestamps → frame-level edit plan (caption timing / highlights / B-roll cuts all templated) → Remotion render. Every video adds a new template to the library. The whole pipeline is templated — next video starts from a template, never from zero.*
+
+---
+
+## 套路库 — 核心知识库 · The Playbook
+
+**每天更新同赛道爆款，每条拆成 6 个维度：**
 选题公式 · 开头钩子 · 中段结构 · 收尾金句 · CTA · 数据表现
 
-拆完不只是存档——**输出核心洞察，反哺动作**。比如：  
-*Every breakdown produces actionable insights, not just archives. Example:*
+拆完不只是存档——**输出核心洞察，反哺具体动作**。例如：
 
-> **核心洞察**：收藏率 = 赛道匹配器。藏/赞 > 0.7 才是精准变现受众；点赞高收藏低 = 泛流量陷阱。  
-> **反哺动作**：选题评分卡"收藏属性"维度权重上调；文案 Skill 优先套高收藏结构。
+> **核心洞察**：收藏率 = 赛道匹配器。藏/赞 > 0.7 才是精准的、能变现的受众；点赞高但收藏低 = 泛流量陷阱。
+> **反哺动作**：选题评分卡里"收藏属性"权重上调；文案引擎优先套用高收藏结构。
 
-[`爆款知识库/拆解卡片/`](爆款知识库/拆解卡片/) — 27 张拆解原始卡，知识库的原材料。
-
----
-
-## 账号北极星 · Your North Star
-
-[`账号北极星.md`](账号北极星.md) — 整套系统的总策略文件。
-
-**这份文件是 agent 的宪法**。所有 Skill 的判断标准都从这里来：
-
-- 你的账号定位和目标受众
-- **核心指标**：根据你的变现路径自定义，写进总文件，agent 的所有判断都对齐它
-- 禁区红线：什么内容永远不做
-- 平台分工：哪个平台做什么事、如何一鱼多吃
-
-*This is the constitution. Every agent decision traces back to it. Define your own north star metrics — the system aligns to whatever you put here.*
+[`爆款知识库/套路库.md`](爆款知识库/套路库.md) — 当前已沉淀 27 张拆解卡，持续增长。
 
 ---
 
-## 脚本层 · Scripts
+*Updated daily with viral content from your niche, dissected across 6 dimensions:*
+*Topic formula · Hook · Mid structure · Closing line · CTA · Performance data*
 
-```
-scripts/
-├── loop_review.py    # 复盘取数：自动拉后台北极星指标，生成复盘卡
-├── douyin_hot.py     # 热榜 AI 过滤：只留与你赛道相关的热词
-├── monitor.py        # 对标监控：追踪竞品博主新视频数据
-└── douyin_ripper.py  # 单条视频数据 + 逐字稿抓取（用于拆解爆款）
-```
+*Every breakdown produces actionable insights — not just archives. Example:*
 
-取数依赖平台创作者后台 API（需配置 cookie），其余无外部依赖。  
-*Requires creator backend cookie for analytics pull. No other external dependencies.*
+*> **Insight**: Save rate = niche fit detector. Saves/Likes > 0.7 means you're reaching monetizable audiences. High likes, low saves = broad traffic trap.*
+*> **Action**: Bump "save-worthiness" weight in topic scoring; Copy Engine prioritizes high-save structures.*
+
+---
+
+## 账号北极星 — 系统的宪法 · Your North Star
+
+[`账号北极星.md`](账号北极星.md) — 整套系统的总策略文件，所有 Skill 的判断标准都从这里来。
+
+它带你明确：账号定位、目标受众、**核心指标（根据你自己的需求和变现路径自定义，写进这份总文件）**、禁区红线、平台分工。
+
+定好之后，agent 的每一个判断都对齐它——这就是它能当"教练"而不只是"工具"的根本原因。
+
+---
+
+*The system's constitution. Every Skill's judgment traces back to this file.*
+
+*It walks you through: account positioning, target audience, **your own north star metrics (customized to your monetization path, written into this doc)**, hard limits, platform strategy.*
+
+*Once defined, every agent decision aligns to it — this is what makes it a coach, not just a tool.*
 
 ---
 
 ## 设计理念 · Design Philosophy
 
-### 沉淀标准，不只是存记录
+**沉淀标准，不只是存记录。**
 
-很多人用 AI 做内容，做完就完了，经验还在脑子里。  
-这套系统的核心设计是：**每次出手都要留痕，留痕要能反哺下一次**。
+很多人用 AI 做内容，做完就完了，经验还在脑子里。这套系统的核心设计是：每次出手都要留痕，留痕要能反哺下一次。套路库有更新标准（什么样的数据才能改权重）；复盘有归因标准（限流先排查，别急着否定内容）；视频生产有模版标准（做完一条就沉淀一个模版）。
 
-套路库有更新标准（什么样的数据才能改权重）；  
-复盘有归因标准（限流先排查，别急着否定内容）；  
-视频生产有模版标准（做完一条就沉淀一个模版）。
+*Systematize standards, not just store records. Most creators finish a video and move on — experience stays in their heads. This system is built so every piece of work compounds: the playbook has update criteria (what data earns the right to change a rule), post-mortems have attribution standards (check for shadowban first, don't blame content), video production has template standards (every video adds one template).*
 
-*Most creators finish a video and move on. This system is designed so every piece of work compounds — standards for when to update the playbook, when to change weights, when a template is worth keeping.*
+---
 
-### Coach 知道你的每一个动作
+**教练记得你的每一个动作。**
 
-Agent 不只是执行工具，它是你的 coach。  
-它知道你上条视频的钩子数据，知道你这个月哪类选题命中率最高，知道你的套路库哪条规则还没被验证过。  
-**它的判断建立在你的真实数据上，不是通用建议。**
+Agent 不只是执行，它是有记忆的教练。它知道你上条视频在第几秒掉的人、这个月哪类选题命中率最高、套路库里哪条规则还没被验证过。它给的判断建立在你的真实数据上，不是通用建议。
 
-*The agent isn't just an executor — it's a coach with memory. It knows your last video's drop-off point, your best-performing hook type this month, which rules in your playbook are still unverified. Its advice is based on your data, not generic best practices.*
+*The coach remembers everything. It knows where viewers dropped off in your last video, which topic category has the highest hit rate this month, which playbook rules are still unverified. Its judgment is built on your real data — not generic advice.*
 
-### 模版化一切，尤其是视频生产
+---
 
-从口播结构到逐帧字幕布局，从 B-roll 切点到片尾 CTA——  
-每一个可以复用的决策都进模版库，下一条视频从模版出发，不从零开始。
+**模版化一切，尤其是视频生产。**
 
-*Everything that can be templated, is. Especially video production — from caption timing to B-roll cuts to end-card CTA. Every video adds to the template library.*
+从口播结构到逐帧字幕布局，从 B-roll 切点到片尾 CTA，每一个能复用的决策都进模版库。下一条视频从模版出发，不从零开始。
+
+*Everything that can be templated, is. Especially video production — from caption timing to B-roll cuts to end-card CTA. Every video adds to the template library. Next video starts from a template, never from zero.*
 
 ---
 
@@ -176,18 +189,19 @@ git clone https://github.com/weid00360-bot/creator-os.git
 cd creator-os
 
 # 2. 把 skills/ 目录下的 Skill 装进你的 Claude Code 环境
-#    Install skills into your Claude Code environment
+#    Install skills into your Claude Code / Codex environment
 
-# 3. 复制 账号北极星.md，填入你自己的定位和核心指标
-#    Copy 账号北极星.md and fill in your own positioning + metrics
+# 3. 填入你自己的账号定位和核心指标
+#    Fill in your own positioning + north star metrics
+vim 账号北极星.md
 
-# 4. 跑第一次选题
+# 4. 跑第一次选题 / Run your first topic session
 /选题
 
-# 5. 写文案
+# 5. 写文案 / Draft copy
 /文案 [你的选题]
 
-# 6. 发布后复盘（需配置平台 cookie）
+# 6. 发布后复盘（需配置平台 cookie）/ Post-publish review
 python3 scripts/loop_review.py --latest
 ```
 
@@ -199,21 +213,19 @@ python3 scripts/loop_review.py --latest
 
 ```
 creator-os/
-├── skills/               ← 五个 Claude Code Skill（选题/文案/预审/复盘/视频生产）
-├── scripts/              ← Python 自动化脚本（取数/热榜/对标监控）
+├── skills/               ← 五个 Skill（选题 / 文案 / 预审 / 复盘 / 视频生产）
+├── scripts/              ← Python 自动化脚本（取数 / 热榜 / 对标监控）
 ├── 爆款知识库/
-│   ├── 套路库.md         ← ★ 核心知识库（持续更新）
+│   ├── 套路库.md         ← ★ 核心知识库（每日更新）
 │   └── 拆解卡片/         ← 27 张爆款拆解原始卡
-├── 参考/                 ← 平台官方规则文档（算法/审核红线/优质内容指南）
-├── 文案/                 ← 已发布的口播定稿存档
+├── 参考/                 ← 平台官方规则文档（算法 / 审核红线 / 优质内容指南）
+├── 文案/                 ← 已发布口播定稿存档
 ├── 视频生产/             ← Remotion 剪辑管线 + 模版库
-├── 账号北极星.md         ← 账号定位 & 北极星指标（系统宪法）
+├── 账号北极星.md         ← 系统宪法（填你自己的）
 ├── 工作流SOP.md          ← 完整运营 SOP
-└── CLAUDE.md             ← Claude Code agent 行为规范
+└── CLAUDE.md             ← Agent 行为规范
 ```
 
 ---
-
-## License
 
 MIT · Build in Public · VibeCoding 大赏参赛作品
