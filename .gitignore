@@ -1,0 +1,45 @@
+# ───── 不开源：真实账号数据 / 第三方抓取内容 / 凭证 ─────
+# 你的真实后台复盘数据（含 uid、粉丝、留存曲线）
+复盘/
+# 但 skills/复盘/ 是方法论代码，需要开源
+!skills/复盘/
+# 抓来的别人视频逐字稿+meta（第三方内容，版权/隐私）
+爆款知识库/原始素材/
+# 对标台账（含 sec_uid）
+爆款知识库/对标监控/ledger.json
+爆款知识库/对标监控/watchlist.json
+爆款知识库/对标监控/待*.md
+# 内部规划 + 个人数据
+选题清单/
+# 凭证
+.douyin_cookie
+*.douyin_cookie
+# 媒体/大文件
+*.mp4
+*.wav
+*.mov
+*.MOV
+*.har
+*.HEIC
+*.jpg
+*.jpeg
+*.png
+*.JPG
+*.PNG
+
+# 依赖/构建产物
+node_modules/
+视频生产/remotion/node_modules/
+视频生产/remotion/out/
+视频生产/remotion/.cache/
+视频生产/projects/
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统文件
+.DS_Store
+
+# ───── 保留开源（方法论+代码=参赛作品本体）─────
+# scripts/ skills/ 套路库.md 工作流SOP.md 账号北极星.md 参考/ 爆款知识库/拆解卡片/
+# CLAUDE.md（含"粉丝约542"等轻量账号数据；build-in-public 可留，介意可手动脱敏）
