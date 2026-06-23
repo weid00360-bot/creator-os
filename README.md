@@ -77,7 +77,13 @@
 
 从 15 个平台拉取当日 AI 热点 + 读套路库历史规律 → 五维评分卡打分（北极星匹配 / 收藏属性 / 独家性 / 钩子强度 / 时效热点）→ 输出排序好的选题清单，每条都带评分依据，告诉你为什么值得做。
 
+> **v2.0 选题库升级 · 双层信息源**：
+> - **发现层（每天 push）**：GitHub 新热 repo + Hacker News 近 7 天热议 + AI 行业聚合 + 抖音热榜，交叉验证「两边都冒头 = 强信号」。
+> - **验证层（按需深挖）**：接入 `last30days` skill，对评分靠前的候选跨平台（Reddit / X / YouTube / HN / GitHub）扒近 30 天真实讨论，**验证「这题到底有没有人在讨论、痛点在哪」**，把评论区真实抱怨回填成文案素材。发现题靠 push，定题靠验证，两层分工。
+
 *Pulls today's AI trends from 15 platforms + reads your playbook history → scores every candidate on 5 dimensions (north star fit / save-worthiness / exclusivity / hook strength / timeliness) → outputs a ranked topic list with rationale for each.*
+
+> **v2.0 Topic-engine upgrade · two-layer sourcing**: a **discovery layer** (GitHub trending + Hacker News + AI news aggregation + platform hot list, cross-validated) feeds candidates daily; a **validation layer** (the `last30days` skill) then mines 30 days of real cross-platform discussion for the top candidates — confirming whether a topic is actually being talked about and surfacing real pain points as copy material before you commit.*
 
 ---
 
@@ -225,6 +231,20 @@ creator-os/
 ├── 工作流SOP.md          ← 完整运营 SOP
 └── CLAUDE.md             ← Agent 行为规范
 ```
+
+---
+
+## 更新日志 · Changelog
+
+### v2.0 — 选题库双层信息源（2026-06）
+
+选题环节从「单层拉热点」升级为「**发现 + 验证**」双层：
+
+- **新增验证层**：接入开源 `last30days` skill，定题前跨平台（Reddit / X / YouTube / HN / GitHub）扒近 30 天真实讨论，验证选题的真实讨论度，并把评论区痛点回填成文案素材。从「靠感觉判断什么值得做」变成「有真实需求证据再做」。
+- **信息源分层**：发现层（GitHub / HN / 聚合热榜，每天 push 新题）与验证层（按需深挖某个候选）分工明确，互不替代。
+- **套路库新增转化结构**：补入「咨询钩子三句」子模块（多讲判断少讲现象 / 多讲案例少讲理论 / 多讲方向少讲方法），并按账号「高收藏」北极星做了护城河式改造——方法给透保收藏，钩子留在抄不走的判断力上。
+
+*v2.0 — Two-layer topic sourcing (2026-06): added a **validation layer** (the open-source `last30days` skill) that mines 30 days of real cross-platform discussion before you commit to a topic; separated **discovery** (daily trend push) from **validation** (on-demand deep dive); and added a "consult-hook" conversion structure to the playbook, adapted to a save-rate north star.*
 
 ---
 
