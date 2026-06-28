@@ -1,0 +1,16 @@
+{
+  "name": "xinmeiti-video",
+  "version": "1.0.0",
+  "description": "口播 → 自动剪辑成片（数据驱动 Remotion）",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.475",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.475"
+  }
+}

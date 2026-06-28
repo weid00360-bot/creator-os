@@ -7,6 +7,10 @@
 2. 迪迪确认方案 → Claude 做1-2张 PPT 示意图
 3. 迪迪确认风格 → 开始录视频
 
+> **封面和图卡一起出（每条片必出，别漏）**：出这条片的图卡时，**同步出封面**——
+> 跑 `python3 视频生产/scripts/make_cover.py --title "主标题/换行" --hl "末词" --out <素材目录>/封面.png`。
+> 风格定死 Swiss IKB 宝蓝、套迪迪固定照片（`视频生产/模板库/封面照_迪迪.jpg`），必带真人脸；标题=本条主标题，末词宝蓝点出。封面进同一个素材子目录，和图卡一并交付。换风格/换照片才传 `--accent`/`--photo`。
+
 ### 录后·制作阶段
 4. 迪迪给口播视频 → 跑 `transcribe.py` → `words.json`
 5. 跑 `build_timeline.py` → `timeline.json`（字幕+broll点位）

@@ -1,0 +1,2 @@
+# 每行一个可用的官方/AI博客 RSS（OpenAI/Anthropic 暂无可用feed，已知能用的：）
+https://deepmind.google/blog/rss.xml

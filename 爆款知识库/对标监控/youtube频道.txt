@@ -1,0 +1,5 @@
+# 每行一个 AI YouTube 频道的 channel_id（或完整 RSS 链接）
+# 怎么拿 channel_id：打开频道页 → 查看网页源代码搜 "channelId" / 或用 commentpicker 等工具
+# 示例（取消注释并替换成你 follow 的）：
+# UCbfYPyITQ-7l4upoX8nvctg   # Two Minute Papers
+# UC8wZnXYK_CGKlBcZp-GxYPA   # Matt Wolfe
